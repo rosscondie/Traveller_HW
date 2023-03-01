@@ -67,7 +67,7 @@ describe('Traveller', function() {
 
   // EXTENSIONS
 
-  xit('should be able to calculate total distance travelled', function() {
+  it('should be able to calculate total distance travelled', function() {
     assert.deepStrictEqual(traveller.calculateTotalDistanceTravelled(), 11710);
   });
 
